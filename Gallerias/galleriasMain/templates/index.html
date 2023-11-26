@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {% load static %}
+    <link rel="stylesheet" href='{% static "galleriasMain.css" %}' />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Vina+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Welcome</title>
+  </head>
+  <body>
+    <main>
+      <section class="welcome-section">
+        <div class="welcome-wrapper">
+          <div class="welcome-title">
+            <h1 class="welcome-title-text">Welcome to Gallerias</h1>
+          </div>
+          <div class="welcome-paragraph">
+            <p>
+              <p class="first-word">Gallerias</p> aims to make the proccess of galleries and artists
+              collaborations much more simple and quick.
+            </p>
+          </div>
+          <div class="transfer-link">
+            <h2><a href="{% url 'main' %}">Let`s Do It!</a></h2>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

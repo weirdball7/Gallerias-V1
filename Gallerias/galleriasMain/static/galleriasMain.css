@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+}
+
+.welcome-section {
+    background-color: #003638;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height : 100%;
+}
+
+.welcome-wrapper {
+    border-radius: 20px;
+    border: 1px solid #F3F2C9;
+    background-color: #055052;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+    width: 90%;
+}
+
+.welcome-title {
+    text-shadow: 0 2px 2px #003638;
+    color: #53B8BB;
+    font-family: 'Bebas Neue';
+    font-size: 48px;
+}
+
+.welcome-paragraph {
+    text-shadow: 0 1px 1px #2c2c2c;
+    color: #53B8BB;
+    font-family: 'Quicksand';
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+}
+
+a {
+    font-family: 'Quicksand';
+    text-decoration: none;
+    color: #53B8BB;
+}
+
+a:hover {
+    color: #F3F2C9;
+    text-shadow: 0 0 1px #2c2c2c;
+}
+
+.first-word {
+    display: inline;
+    font-weight: 800;
+}
